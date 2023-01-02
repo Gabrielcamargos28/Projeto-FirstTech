@@ -1,0 +1,28 @@
+body {
+    background: lightgrey;
+}
+
+header {
+    background: grey;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.logo{
+    padding: 10px 0 0 10px; /* cima baixo direita esquerda*/
+    max-width: 250px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+.menu-navegacao{
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.menu-navegacao li {
+    display: inline-block;
+    font-size: 2em;
+    padding-right: 1.5em;
+}
