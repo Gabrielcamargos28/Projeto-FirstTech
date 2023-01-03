@@ -2,13 +2,13 @@ body {  /* página inteira */
     background: lightgrey;
 }
 
-header {    /* cabeçalho */
+header, footer {    /* cabeçalho */
     background: grey; 
     font-family: 'Bebas Neue', cursive;
 }
 
-.logo{ /* logo na header */
-    padding: 10px 0 0 10px; /* cima baixo direita esquerda*/
+.logo{ /* logo na header e no footer */
+    padding: 10px 0 0 10px; /* cima baixo direita esquerda  || esse padding funciona apenas para a logo no footer*/ 
     max-width: 250px;
     max-height: 300px;
     width: auto;
@@ -25,7 +25,21 @@ header {    /* cabeçalho */
     display: inline-block;
     font-size: 2em;
     padding-right: 1.5em;
+    text-decoration: none;
 }
+
 footer{ /* cabeçalho */
     background: grey;
+}
+
+.copyright {
+    text-align: center;
+    display: inline-block;
+    padding-left: 40%;
+    font-size: 22px;
+}
+
+footer li {
+    display: inline-block;
+    padding-right: 25px;
 }
