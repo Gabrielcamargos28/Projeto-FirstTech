@@ -32,14 +32,19 @@ footer{ /* cabeçalho */
     background: grey;
 }
 
-.copyright {
+.copyright { /* texto do copyright com a logo no footer */
     text-align: center;
     display: inline-block;
     padding-left: 40%;
     font-size: 22px;
 }
 
-footer li {
-    display: inline-block;
-    padding-right: 25px;
+footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
+    position: relative;
+    left: 80%;
+}
+
+footer li { /* setando forma que os icones das redes sociais vao aparecer */
+    display: inline-block; /* fazer os icones aparecerem um na frente do outro em vez de quebrar linha */
+    padding-left: 5em; /* esse padding serve pra aumentar o espacamento entre cada icone */
 }
