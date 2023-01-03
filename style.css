@@ -1,13 +1,13 @@
-body {
+body {  /* página inteira */
     background: lightgrey;
 }
 
-header {
-    background: grey;
+header {    /* cabeçalho */
+    background: grey; 
     font-family: 'Bebas Neue', cursive;
 }
 
-.logo{
+.logo{ /* logo na header */
     padding: 10px 0 0 10px; /* cima baixo direita esquerda*/
     max-width: 250px;
     max-height: 300px;
@@ -15,17 +15,17 @@ header {
     height: auto;
 }
 
-.menu-navegacao{
+.menu-navegacao{ /* nav do header */
     position: absolute;
     right: 0;
     top: 30px;
 }
 
-.menu-navegacao li {
+.menu-navegacao li { /* itens da lista no nav do header */
     display: inline-block;
     font-size: 2em;
     padding-right: 1.5em;
 }
-footer{
+footer{ /* cabeçalho */
     background: grey;
 }
