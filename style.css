@@ -2,8 +2,8 @@ body {  /* página inteira */
     background: lightgrey;
 }
 
-header, footer {    /* cabeçalho */
-    background: grey; 
+header, footer {    /* background e fonte do cabecalho e do rodape */
+    background: black; 
     font-family: 'Bebas Neue', cursive;
 }
 
@@ -21,15 +21,19 @@ header, footer {    /* cabeçalho */
     top: 30px;
 }
 
-.menu-navegacao li { /* itens da lista no nav do header */
-    display: inline-block;
-    font-size: 2em;
-    padding-right: 1.5em;
-    text-decoration: none;
+nav .logo{ /* afastando um pouco a logo do header da "parede" */
+    padding-left: 20px;
 }
 
-footer{ /* cabeçalho */
-    background: grey;
+.menu-navegacao li { /* itens da lista no nav do header */
+    display: inline-block;
+    font-size: 26px;
+    padding-right: 1.5em;
+}
+
+.menu-navegacao a { /* links da lista -> tirando o sublinhado + alterando cor */
+    text-decoration: none;
+    color: #5AED83;
 }
 
 .copyright { /* texto do copyright com a logo no footer */
@@ -37,6 +41,8 @@ footer{ /* cabeçalho */
     display: inline-block;
     padding-left: 40%;
     font-size: 22px;
+    color: #5AED83;
+    padding-top: 5px;
 }
 
 footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
