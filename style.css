@@ -53,9 +53,8 @@ main h2 { /* subtitulo da homepage */
 }
 
 .descricao { /* propriedades do botão no meio da home */
-    /*Alterei a propriedade da margin 06-01*/
     font-family: 'Fredoka', sans-serif;
-    margin-left: 20%;
+    margin-left: 27%;
     display: inline-block;
     padding-bottom: 11.7%;
 }
@@ -65,7 +64,7 @@ main h2 { /* subtitulo da homepage */
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    padding: 20px;
+    padding: 15px;
     font-size: 2.5em;
     font-weight: bold;
 }
@@ -97,5 +96,5 @@ footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
 
 footer li { /* setando forma que os icones das redes sociais vao aparecer */
     display: inline-block; /* fazer os icones aparecerem um na frente do outro em vez de quebrar linha */
-    padding-left: 3em; /* esse padding serve pra aumentar o espacamento entre cada icone */
+    padding-left: 5em; /* esse padding serve pra aumentar o espacamento entre cada icone */
 }
