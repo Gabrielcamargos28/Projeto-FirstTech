@@ -47,7 +47,8 @@ main h2 { /* subtitulo da homepage */
 
 .descricao { /* propriedades do botão no meio da home */
     font-family: 'Fredoka', sans-serif;
-    text-align: center;
+    margin-left: 36.5%;
+    display: inline-block;
     padding-bottom: 11.7%;
 }
 
