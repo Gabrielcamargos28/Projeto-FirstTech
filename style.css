@@ -132,3 +132,7 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     border-color: #4e5562; 
     width: 250px; /* aumentando tamanho do campo input */
 }
+
+.formulario-cadastro button{
+    margin-top: 3%;
+}
