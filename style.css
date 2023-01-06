@@ -1,5 +1,5 @@
 body {  /* página inteira */
-    background: lightgrey;
+    background: linear-gradient(#5AED83,black);
 }
 
 header, footer {    /* background e fonte do cabecalho e do rodape */
@@ -11,8 +11,6 @@ header, footer {    /* background e fonte do cabecalho e do rodape */
     padding: 10px 0 0 10px; /* cima baixo direita esquerda  || esse padding funciona apenas para a logo no footer*/ 
     max-width: 250px;
     max-height: 300px;
-    width: auto;
-    height: auto;
 }
 
 .menu-navegacao{ /* nav do header */
@@ -34,6 +32,43 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 .menu-navegacao a { /* links da lista -> tirando o sublinhado + alterando cor */
     text-decoration: none;
     color: #5AED83;
+}
+
+main h1{ /* titulo principal da home page */
+    padding-top: 10%;
+    font-size: 4em;
+    padding-bottom: 10px;
+}
+
+main h2 { /* subtitulo da homepage */
+    font-size: 1.8em;
+    padding-bottom: 10%;
+}
+
+.descricao { /* propriedades do botão no meio da home */
+    font-family: 'Fredoka', sans-serif;
+    text-align: center;
+    padding-bottom: 11.7%;
+}
+
+.descricao a { /* conteudo do botao no meio da pag que leva a tela de cadastro */
+    border: 3px solid black;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+.descricao:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.titulo-index { /* titulos da home page */
+    font-family: 'Righteous', cursive;
+    text-align: center;
 }
 
 .copyright { /* texto do copyright com a logo no footer */
