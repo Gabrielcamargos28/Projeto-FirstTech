@@ -1,3 +1,5 @@
+/* css da homepage e header/footer */
+
 body {  /* página inteira */
     background: linear-gradient(to right ,#6a7d8a, #4e5562);
     overflow-x: hidden; /* isso aqui tirou o espaço branco pros cantos da pagina */
@@ -41,13 +43,13 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
     margin: 10% 20% 10% 20%; /* cima, direita, baixo, esquerda */
 }
 
-main h1{ /* titulo principal da home page */
+.centro-pagina h1{ /* titulo principal da home page */
     padding-top: 10%;
     font-size: 4em;
     padding-bottom: 10px;
 }
 
-main h2 { /* subtitulo da homepage */
+.centro-pagina h2 { /* subtitulo da homepage */
     font-size: 1.8em;
     padding-bottom: 10%;
 }
@@ -74,7 +76,7 @@ main h2 { /* subtitulo da homepage */
     transition: 1s;
 }
 
-.titulo-index { /* titulos da home page */
+.titulos { /* titulos principais da pag */
     font-family: 'Righteous', cursive;
     text-align: center;
 }
@@ -97,4 +99,36 @@ footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
 footer li { /* setando forma que os icones das redes sociais vao aparecer */
     display: inline-block; /* fazer os icones aparecerem um na frente do outro em vez de quebrar linha */
     padding-left: 5em; /* esse padding serve pra aumentar o espacamento entre cada icone */
+}
+
+/* css da página de cadastro */
+
+.titulo-cadastro {
+    font-size: 2.5em;
+    margin-top: 2.25%;
+}
+
+.tela-cadastro{
+    text-align: center;
+    padding-top: 5%;
+    border: 5px solid black;
+    margin: 2% 35% 8.5% 35%;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.formulario-cadastro label, legend{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 1.5em;
+    font-family: 'Fredoka', sans-serif; 
+}
+
+.formulario-cadastro input{
+    margin-bottom: 1%; /* distancia um input do outro */
+    border-radius: 7px;
+    border-width: 10px; /* essas 3 propriedades border customizam as bordas do input */
+    border-color: #4e5562; 
+    width: 250px; /* aumentando tamanho do campo input */
 }
