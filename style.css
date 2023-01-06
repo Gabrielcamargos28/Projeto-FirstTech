@@ -1,5 +1,5 @@
 body {  /* página inteira */
-    background: linear-gradient(#5AED83,black);
+    background: linear-gradient(#6E7B65, #D8E1D2);
 }
 
 header, footer {    /* background e fonte do cabecalho e do rodape */
@@ -84,6 +84,7 @@ main h2 { /* subtitulo da homepage */
 footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
     position: relative;
     left: 80%;
+    bottom: 15px;
 }
 
 footer li { /* setando forma que os icones das redes sociais vao aparecer */
