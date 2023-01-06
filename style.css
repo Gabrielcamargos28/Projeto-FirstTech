@@ -34,6 +34,12 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
     color: #5AED83;
 }
 
+.centro-pagina{
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 10% 20% 10% 20%; /* cima, direita, baixo, esquerda */
+}
+
 main h1{ /* titulo principal da home page */
     padding-top: 10%;
     font-size: 4em;
@@ -47,7 +53,7 @@ main h2 { /* subtitulo da homepage */
 
 .descricao { /* propriedades do botão no meio da home */
     font-family: 'Fredoka', sans-serif;
-    margin-left: 36.5%;
+    margin-left: 27%;
     display: inline-block;
     padding-bottom: 11.7%;
 }
