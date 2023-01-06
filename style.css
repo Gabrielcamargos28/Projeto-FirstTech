@@ -63,7 +63,7 @@ main h2 { /* subtitulo da homepage */
 }
 
 .descricao:hover{
-    transform: scale(1.2);
+    transform: scale(1.05);
     transition: 1s;
 }
 
