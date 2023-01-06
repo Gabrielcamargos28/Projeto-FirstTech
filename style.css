@@ -1,5 +1,5 @@
 body {  /* página inteira */
-    background: linear-gradient(#6E7B65, #D8E1D2);
+    background: linear-gradient(to right ,#6a7d8a, #4e5562);
     overflow-x: hidden; /* isso aqui tirou o espaço branco pros cantos da pagina */
 }
 
