@@ -1,5 +1,6 @@
 body {  /* página inteira */
     background: linear-gradient(#6E7B65, #D8E1D2);
+    overflow-x: hidden; /* isso aqui tirou o espaço branco pros cantos da pagina */
 }
 
 header, footer {    /* background e fonte do cabecalho e do rodape */
