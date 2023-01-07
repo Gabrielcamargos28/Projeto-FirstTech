@@ -40,7 +40,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 .centro-pagina{
     border: 3px solid black;
     border-radius: 10px;
-    margin: 10% 20% 10% 20%; /* cima, direita, baixo, esquerda */
+    margin: 6.5% 20% 10% 20%; /* cima, direita, baixo, esquerda */
 }
 
 .centro-pagina h1{ /* titulo principal da home page */
@@ -88,6 +88,13 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
     font-size: 22px;
     color: #5AED83;
     padding-top: 5px;
+}
+
+footer{ /* deixando o footer fixo no fim da pag */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
