@@ -53,22 +53,22 @@
             <div class="tela-cadastro">
                 <form class="formulario-cadastro">
                     <label for="nome-cadastro">Nome</label>
-                    <input type="text" id="nome-cadastro">
+                    <input type="text" id="nome-cadastro" required placeholder="Nome completo">
     
                     <label for="senha-cadastro">Senha</label>
-                    <input type="password" id="senha-cadastro"> 
+                    <input type="password" id="senha-cadastro" required placeholder="Senha"> 
     
                     <label for="email-cadastro">E-mail</label>
-                    <input type="text" id="email-cadastro">
+                    <input type="text" id="email-cadastro" required placeholder="endereço@dominio.com">
     
                     <label for="telefone-cadastro">Telefone</label>
-                    <input type="tel" id="telefone-cadastro">
+                    <input type="tel" id="telefone-cadastro" required placeholder="(XXX) xxxxx-xxxx">
 
 
                     <fieldset>
                         <legend>Gênero</legend>
                         <label for="genero-masculino">Masculino</label>
-                        <input type="radio" id="genero-masculino" name="genero">
+                        <input type="radio" id="genero-masculino" name="genero" checked>
                                                                                     <!--no futuro, deixar os radio button um na frente do outro em vez de deixar um em baixo do outro-->
                         <label for="genero-feminino">Feminino</label>
                         <input type="radio" id="genero-feminino" name="genero">
