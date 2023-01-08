@@ -57,8 +57,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 
 .descricao { /* propriedades do botão no meio da home */
     font-family: 'Fredoka', sans-serif;
-    margin-left: 20%;
-    display: flex;
+    display: block;
     padding-bottom: 11.7%;
 }
 
@@ -98,7 +97,7 @@ footer{ /* deixando o footer fixo no fim da pag */
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 20%;
+    height: 15%;
 }
 
 footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
@@ -109,13 +108,45 @@ footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
 }
 
 footer li { /* setando forma que os icones das redes sociais vao aparecer */
-    align-items: center;
     display: inline-block; /* fazer os icones aparecerem um na frente do outro em vez de quebrar linha */
     padding: 5px 10px 10px 20px; /* esse padding serve pra aumentar o espacamento entre cada icone */
 }
 
 /* css da página de cadastro */
 
+.titulo-cadastro {
+    font-size: 2.5em;
+    margin-top: 2.25%;
+}
+
+.tela-cadastro{
+    text-align: center;
+    padding-top: 5%;
+    border: 5px solid black;
+    margin: 2% 35% 8.5% 35%;
+    border-radius: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.formulario-cadastro label, legend{
+    display: block;
+    margin-bottom: 3px;
+    font-size: 1.5em;
+    font-family: 'Fredoka', sans-serif; 
+}
+
+.formulario-cadastro input{
+    margin-bottom: 1%; /* distancia um input do outro */
+    border-radius: 7px;
+    border-width: 10px; /* essas 3 propriedades border customizam as bordas do input */
+    border-color: #4e5562; 
+    width: 250px; /* aumentando tamanho do campo input */
+}
+
+.formulario-cadastro button{
+    margin-top: 3%;
+}
 /*Css tela login*/
 main{
     text-align: center;
@@ -153,5 +184,11 @@ main{
     color: #5AED83;
     background: #4e5562;
     border-radius: 20px;
+    font-size: 1em;
     font-family: 'Fredoka', sans-serif; 
+}
+
+.div-login button:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
 }
