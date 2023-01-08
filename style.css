@@ -40,8 +40,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 .centro-pagina{
     border: 3px solid black;
     border-radius: 10px;
-    margin: 2% 50% 0% 30%;  /* cima, direita, baixo, esquerda */
-    width: 500px;
+    margin: 6.5% 20% 10% 20%; /* cima, direita, baixo, esquerda */
 }
 
 .centro-pagina h1{ /* titulo principal da home page */
@@ -62,15 +61,13 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 }
 
 .descricao a { /* conteudo do botao no meio da pag que leva a tela de cadastro */
-    display: inline-block;
     border: 3px solid black;
     border-radius: 10px;
     text-decoration: none;
     color: black;
-    padding: 10px;
+    padding: 15px;
     font-size: 2.5em;
     font-weight: bold;
-    margin: 0% 10% 0% -10%;
 }
 
 .descricao:hover{
@@ -104,7 +101,7 @@ footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
     position: relative;
     left: 80%;
     bottom: 15px;
-    top: -50px;
+    top: 50;
 }
 
 footer li { /* setando forma que os icones das redes sociais vao aparecer */
@@ -146,7 +143,19 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
 
 .formulario-cadastro button{
     margin-top: 3%;
+    width: 100px;
+    color: black;
+    font-size: 1em;
+    background: #4e5562;
+    border-radius: 20px;
+    font-family: 'Fredoka', sans-serif; 
 }
+
+.cadastro-botao:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
+}
+
 /*Css tela login*/
 main{
     text-align: center;
@@ -154,8 +163,7 @@ main{
     margin: 0px 0;
 }
 .div-login{
-    padding: 30px;
-    margin-top: 60px;
+    margin: 100px;
     border: 5px solid black;
     border-radius: 15px;
     display: inline-block;
