@@ -56,11 +56,13 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 
 .descricao { /* propriedades do botão no meio da home */
     font-family: 'Fredoka', sans-serif;
-    display: block;
     padding-bottom: 11.7%;
+    display: block;
+    text-align: center;
 }
 
 .descricao a { /* conteudo do botao no meio da pag que leva a tela de cadastro */
+   
     border: 3px solid black;
     border-radius: 10px;
     text-decoration: none;
@@ -68,6 +70,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
     padding: 15px;
     font-size: 2.5em;
     font-weight: bold;
+    /*margin-left: 20%;*/
 }
 
 .descricao:hover{
@@ -116,7 +119,7 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     margin-top: 2.25%;
 }
 
-.tela-cadastro{
+.tela-formulario{
     text-align: center;
     padding-top: 5%;
     border: 5px solid black;
@@ -126,69 +129,38 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     padding-bottom: 25px;
 }
 
-.formulario-cadastro label, legend{
+.formulario-cadastro label,.formulario-cadastro legend,.formulario-login label, .formulario-contato label,.formulario-contato legend{
     display: block;
     margin-bottom: 3px;
     font-size: 1.5em;
     font-family: 'Fredoka', sans-serif; 
 }
-
-.formulario-cadastro input, .div-login input{
+fieldset li{
+    list-style: none;
+}
+.formulario-cadastro input,.formulario-login input, .formulario-contato input{
+    /*background: linear-gradient(to right ,#6a7d8a, #4e5562);*/
     margin-bottom: 1%; /* distancia um input do outro */
     border-radius: 7px;
     border-width: 10px; /* essas 3 propriedades border customizam as bordas do input */
     border-color: #4e5562; 
-    width: 250px; /* aumentando tamanho do campo input */
+    width: 80%; /* aumentando tamanho do campo input */
 }
 
-.formulario-cadastro button{
+
+.formulario-cadastro button, .formulario-login button,.formulario-contato button{
     margin-top: 3%;
     width: 100px;
-    color: black;
+    color: #5AED83;
     font-size: 1em;
     background: #4e5562;
     border-radius: 20px;
     font-family: 'Fredoka', sans-serif; 
 }
 
-.cadastro-botao:hover{
+.botao-formulario:hover{
     transform: scale(1.2);
     transition: 0.7s;
 }
 
-/*Css tela login*/
-main{
-    text-align: center;
-    width: 100%;
-    margin: 0px 0;
-}
-.div-login{
-    padding: 30px;
-    margin-top: 60px;
-    border: 5px solid black;
-    border-radius: 15px;
-    display: inline-block;
-    width: 300px;
-    color: #5AED83;
-}
-.div-login label {
-    display: block;
-    margin: 10px auto; 
-    font-size: 20px;
-    font-family: 'Fredoka', sans-serif; 
-}
-
-.div-login button{
-    margin-top: 10px;
-    width: 100px;
-    color: #5AED83;
-    background: #4e5562;
-    border-radius: 20px;
-    font-size: 1em;
-    font-family: 'Fredoka', sans-serif; 
-}
-
-.div-login button:hover{
-    transform: scale(1.2);
-    transition: 0.7s;
-}
+/* */

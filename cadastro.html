@@ -50,7 +50,7 @@
         <main>
             <h1 class="titulos titulo-formulario">Cadastro</h1>
 
-            <div class="tela-cadastro">
+            <div class="tela-formulario">
                 <form class="formulario-cadastro">
                     <label for="nome-cadastro">Nome</label>
                     <input type="text" id="nome-cadastro" required placeholder="Nome completo">
@@ -67,14 +67,15 @@
 
                     <fieldset>
                         <legend>Gênero</legend>
-                        <label for="genero-masculino">Masculino</label>
-                        <input type="radio" id="genero-masculino" name="genero" checked>
+                        <li><input id="formulario-radio" type="radio" id="genero-masculino" name="genero"
+                                checked>Masculino</li>
+
                         <!--no futuro, deixar os radio button um na frente do outro em vez de deixar um em baixo do outro-->
-                        <label for="genero-feminino">Feminino</label>
-                        <input type="radio" id="genero-feminino" name="genero">
+                        <li><input id="formulario-radio" type="radio" id="genero-feminino" name="genero">Feminino</li>
+
                     </fieldset>
 
-                    <button class="cadastro-botao">Enviar</button>
+                    <button class="botao-formulario">Enviar</button>
 
                 </form>
             </div>

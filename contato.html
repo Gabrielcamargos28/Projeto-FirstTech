@@ -48,7 +48,35 @@
 
     <div>
         <main>
-            
+            <h1 class="titulos titulo-formulario">Contato</h1>
+            <div class="tela-formulario">
+                <form class="formulario-contato">
+                    <label for="nome-contato">Nome</label>
+                    <input type="text" id="nome-contato" required placeholder="Nome completo">
+
+                    <label for="email-contato">Email</label>
+                    <input type="email" id="email-contato" required placeholder="email@dominio">
+
+                    <label for="telefone-contato">Telefone</label>
+                    <input type="tel" id="telefone-contato" required placeholder="() XXXX-XXXX">
+
+                    <label for="assunto-contato">Assunto</label>
+                    <input type="text" id="assunto-contato" required>
+
+                    <label for="mensagem-contato">Mensagem</label>
+                    <textarea cols="50" rows="10" id="mensagem-contato" required></textarea>
+
+                    <fieldset>
+                        <legend>Escolha a Forma de Contato</legend>
+                        <label id="formulario-radio"><input type="radio" name="escolha-contato"
+                                value="email">E-mail</label>
+                        <label id="formulario-radio"><input type="radio" name="escolha-contato"
+                                value="telefone">Telefone</label>
+                    </fieldset>
+                    <button class="botao-formulario">Enviar</button>
+
+                </form>
+            </div>
         </main>
     </div>
 
@@ -62,9 +90,12 @@
             <nav>
                 <ul>
                     <!-- LOGOS DE REDES SOCIAIS -->
-                    <li><a target="_blank" href="https://www.instagram.com/"><img src="imagens/instagram.svg" alt="Logo-instagram"></a></li>
-                    <li><a target="_blank" href="https://twitter.com/"><img src="imagens/twitter.svg" alt="Logo-twitter"></a></li>
-                    <li><a target="_blank" href="https://youtube.com/"><img src="imagens/youtube.svg" alt="Logo-youtube"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/"><img src="imagens/instagram.svg"
+                                alt="Logo-instagram"></a></li>
+                    <li><a target="_blank" href="https://twitter.com/"><img src="imagens/twitter.svg"
+                                alt="Logo-twitter"></a></li>
+                    <li><a target="_blank" href="https://youtube.com/"><img src="imagens/youtube.svg"
+                                alt="Logo-youtube"></a></li>
                 </ul>
             </nav>
         </footer>
