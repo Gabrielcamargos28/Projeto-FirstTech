@@ -112,7 +112,7 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     padding: 5px 10px 10px 20px; /* esse padding serve pra aumentar o espacamento entre cada icone */
 }
 
-/* css da página de cadastro */
+/* css das paginas de formulario */
 
 .titulo-formulario {
     font-size: 2.5em;
@@ -135,11 +135,18 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     font-size: 1.5em;
     font-family: 'Fredoka', sans-serif; 
 }
+<<<<<<< HEAD
 fieldset li{
     list-style: none;
     margin-right: 100px;
+=======
+
+.formulario-cadastro legend, .formulario-contato legend{
+    padding-top: 5%;
+>>>>>>> c0d66bf5a7e965bc9343d7821cf146e243c3feea
 }
-.formulario-cadastro input,.formulario-login input, .formulario-contato input{
+
+.formulario-cadastro input, .formulario-login input, .formulario-contato input{
     /*background: linear-gradient(to right ,#6a7d8a, #4e5562);*/
     margin-bottom: 1%; /* distancia um input do outro */
     border-radius: 7px;
@@ -148,8 +155,16 @@ fieldset li{
     width: 80%; /* aumentando tamanho do campo input */
 }
 
+.formulario-cadastro fieldset label{
+    float: left;
+    display: block;
+    clear: none;
+    padding-left: 40%;
+    padding-top: 0.5em;
+}
 
-.formulario-cadastro button, .formulario-login button,.formulario-contato button{
+
+.formulario-cadastro button, .formulario-login button, .formulario-contato button{
     margin-top: 3%;
     width: 100px;
     color: #5AED83;
