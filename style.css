@@ -130,15 +130,9 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     color: #5AED83;
     font-weight: bold;
 }
-<<<<<<< HEAD
-fieldset li{
-    list-style: none;
-    margin-right: 100px;
-=======
 
 .formulario-cadastro legend, .formulario-contato legend{
     padding-top: 5%;
->>>>>>> c0d66bf5a7e965bc9343d7821cf146e243c3feea
 }
 
 .formulario-cadastro input, .formulario-login input, .formulario-contato input{
