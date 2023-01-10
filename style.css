@@ -92,14 +92,6 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
     padding-top: 5px;
 }
 
-footer{ /* deixando o footer fixo no fim da pag */
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 15%;
-}
-
 footer ul { /* setando a posicao que os icones das redes sociais vao aparecer */
     position: relative;
     left: 80%;
@@ -173,4 +165,29 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     transition: 0.7s;
 }
 
-/* */
+/* CSS DA PAGINA PLANOS */
+
+.titulo-planos{
+    font-size: 2em;
+    margin-top: 2%;
+}
+
+.borda-plano{
+    border: 5px solid black;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 1%;
+    width: 25%;
+}
+
+.conteudo-plano{
+    font-size: 1.3em;
+    font-family: 'Fredoka', sans-serif; 
+}
+
+.preco{
+    color: aqua;
+}
