@@ -81,6 +81,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 .titulos { /* titulos principais da pag */
     font-family: 'Righteous', cursive;
     text-align: center;
+    font-weight: bold;
 }
 
 .copyright { /* texto do copyright com a logo no footer */
@@ -126,6 +127,8 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     margin-bottom: 3px;
     font-size: 1.5em;
     font-family: 'Fredoka', sans-serif; 
+    color: #5AED83;
+    font-weight: bold;
 }
 
 .formulario-cadastro legend, .formulario-contato legend{
@@ -168,7 +171,7 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
 /* CSS DA PAGINA PLANOS */
 
 .titulo-planos{
-    font-size: 2em;
+    font-size: 2.5em;
     margin-top: 2%;
 }
 
@@ -186,8 +189,11 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
 .conteudo-plano{
     font-size: 1.3em;
     font-family: 'Fredoka', sans-serif; 
+    color: #5AED83;
 }
 
 .preco{
     color: aqua;
+    font-size: 1.6em;
+    font-weight: bold;
 }
