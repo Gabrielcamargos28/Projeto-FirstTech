@@ -1,0 +1,8 @@
+/* esse arquivo e apenas para fixar o footer no fim da pag de login */
+
+footer{ /* deixando o footer fixo no fim da pag */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
