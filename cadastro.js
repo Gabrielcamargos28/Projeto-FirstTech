@@ -9,6 +9,8 @@ const botaoCadastro = document.querySelector('#botao-cadastro');
 function mudaPagina(){
     window.location.href="confirmar_email.html"
 }
+/* essa função leva pra pag de confirmar senha */
+
 
 botaoCadastro.onclick = function(){
     if(emailCadastro.value != "" && nomeCadastro.value != "" && senhaCadastro.value != "" && telefoneCadastro.value != ""){
