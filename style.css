@@ -38,7 +38,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 }
 
 .centro-pagina{
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 10px;
     margin: 6.5% 20% 10% 20%; /* cima, direita, baixo, esquerda */
 }
@@ -63,7 +63,7 @@ nav .logo{ /* afastando um pouco a logo do header da "parede" */
 
 .descricao a { /* conteudo do botao no meio da pag que leva a tela de cadastro */
    
-    border: 3px solid black;
+    border: 5px solid black;
     border-radius: 10px;
     text-decoration: none;
     color: black;
@@ -174,6 +174,12 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     font-size: 2.5em;
     margin-top: 2%;
 }
+.container{
+    display: flex;
+    align-items: flex-end;
+  
+}
+
 
 .borda-plano{
     border: 5px solid black;
@@ -231,3 +237,4 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     margin-left: 40%;
     margin-top: 2%;
 }
+
