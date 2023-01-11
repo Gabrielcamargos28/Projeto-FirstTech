@@ -6,16 +6,16 @@ const senhaCadastro = document.querySelector('#senha-cadastro');
 const telefoneCadastro = document.querySelector('#telefone-cadastro');
 const botaoCadastro = document.querySelector('#botao-cadastro');
 
-function mudaPagina(){
-    window.location.href="confirmar_email.html"
+function mudaPagina() {
+    window.location.href = "confirmar_email.html"
 }
 /* essa função leva pra pag de confirmar senha */
 
 
-botaoCadastro.onclick = function(){
-    if(emailCadastro.value != "" && nomeCadastro.value != "" && senhaCadastro.value != "" && telefoneCadastro.value != ""){
-        alert("Cadastro realizado com sucesso!");
+botaoCadastro.onclick = function () {
+    if (emailCadastro.value != "" && nomeCadastro.value != "" && senhaCadastro.value != "" && telefoneCadastro.value != "") {
         mudaPagina();
+        alert("Cadastro realizado com sucesso!");
     }
 
 }

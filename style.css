@@ -197,3 +197,37 @@ footer li { /* setando forma que os icones das redes sociais vao aparecer */
     font-size: 1.6em;
     font-weight: bold;
 }
+/*css da pagina de confirmacao*/
+
+.mensagem-validacao{
+    text-align: justify;
+    padding: 2%;
+    border: 5px solid black;
+    border-radius: 15px;
+    /**/
+    margin: auto;
+    margin-top: 7.5%;
+    margin-bottom: 1.5%;
+    border-radius: 10px;
+    width: 35%;
+}
+.mensagem-validacao h1{
+    margin-top: 2%;
+    text-align: justify;
+    padding-left: 2%;
+    font-size: 2em;
+}
+.texto-span{
+    display: block;
+    margin-left: 2%;
+    margin-top: 10px;
+}
+.logo-warning{  
+    height: 70px;
+    float: right;
+    padding-right: 4%;
+}
+.mensagem-validacao  a img{
+    margin-left: 40%;
+    margin-top: 2%;
+}
